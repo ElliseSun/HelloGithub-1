@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*这种注释可以被解析*/
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: #ffc0cb;
+}
+#box h3 {
+  color: red;
+  width: calc(300px-100);
+}
+#box p {
+  font-size: 50px;
+  background-image: url('../img/01.jpg');
+}
+#box p:hover {
+  color: orange;
+}
